@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Slabo+27px&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url(./img/sample-pattern.png);
+}
+
+/* navbar */
+.navbar {
+  background-color: white;
+  padding: 10px;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.navlink a {
+  float: right;
+  margin-left: 10px;
+  text-decoration: none;
+  color: blue;
+}
+
+img {
+  float: left;
+  margin: 10px;
+  width: 150px;
+}
+
+/* konten */
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  color: blue;
+}
+
+.isi {
+  /* margin: 10px; */
+  margin: auto;
+  padding: 20px;
+  width: 700px;
+  background-color: white;
+  margin-top: 2px;
+  padding-bottom: 40px;
+}
+
+/* footer */
+footer {
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  background-color: black;
+  padding: 20px;
+}

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Slabo+27px&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
   font-family: "Lato", sans-serif;
@@ -23,9 +27,13 @@ body {
   color: blue;
 }
 
+a:hover {
+  color: red;
+}
+
 img {
   float: left;
-  margin: 10px;
+  margin-top: -5px;
   width: 150px;
 }
 
@@ -33,6 +41,7 @@ img {
 
 h1 {
   text-align: center;
+  margin: 30px;
 }
 
 h3 {
